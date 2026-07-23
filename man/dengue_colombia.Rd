@@ -52,6 +52,6 @@ dengue_colombia
 Dataset with sociodemographic, socioeconomic data, dengue cases, temperature and precipitation for all municipalities
 }
 \details{
-The dengue_colombia dataset has also been published in the denguedataset package in Python
+Dengue Challenge 2 - Make Health LATAM 2022. This challenge will provide a dataset for each municipality in Colombia, composed of weekly dengue cases between 2007 and 2019, along with other social and climatological variables. You will also find a special dataset we have prepared for the municipality of Medellín, with preprocessed climatological variables and a compressed version of satellite images for inclusion in the models. The dengue_colombia dataset has also been published in the denguedataset package in Python
 }
 \keyword{datasets}

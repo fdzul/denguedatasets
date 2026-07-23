@@ -56,7 +56,6 @@
 #' @details The dengue_bangladesh dataset has also been published in the denguedataset package in Python. You can find the Zenodo page https://zenodo.org/records/21499199, GitHub repository https://github.com/fdzul/denguedatasets-py, GitHub Pages https://fdzul.github.io/denguedatasets-py/, and PyPI index at the following links https://pypi.org/project/denguedatasets/.
 "dengue_bangladesh"
 
-
 #' Brazil Dengue Dataset 2000-2019 labels
 #'
 #' Data dictionary/variable-label reference table accompanying the Brazil Dengue Dataset 2000-2019, documenting field names, codes, and descriptions used across microregion, mesoregion, state, region, biome, and ecozone identifiers, as well as climatic and demographic variables in the main dataset.
@@ -111,7 +110,6 @@
 #' @details The dengue_brazil dataset has also been published in the denguedataset package in Python
 "dengue_brazil"
 
-
 #' Dengue Tabular Data and Satellite Images
 #'
 #' Dataset with weekly Dengue cases, temperature and precipitation in Medellin using the epidemiological week.
@@ -131,7 +129,7 @@
 #'   ...
 #' }
 #' @source \url{https://www.kaggle.com/datasets/davidrestrepo/dengue, https://zenodo.org/records/21499199, https://fdzul.github.io/denguedatasets-py/, https://fdzul.github.io/denguedatasets-py/, https://pypi.org/project/denguedatasets/.}
-#' @details The dengue_colombia_medellin dataset has also been published in the denguedataset package in Python
+#' @details Dengue Challenge 2 - Make Health LATAM 2022. This challenge will provide a dataset for each municipality in Colombia, composed of weekly dengue cases between 2007 and 2019, along with other social and climatological variables. You will also find a special dataset we have prepared for the municipality of Medellín, with preprocessed climatological variables and a compressed version of satellite images for inclusion in the models. The dengue_colombia_medellin dataset has also been published in the denguedataset package in Python
 "dengue_colombia_medellin"
 
 
@@ -176,5 +174,92 @@
 #'   ...
 #' }
 #' @source \url{https://www.kaggle.com/datasets/davidrestrepo/dengue, https://zenodo.org/records/21499199, https://fdzul.github.io/denguedatasets-py/, https://fdzul.github.io/denguedatasets-py/, https://pypi.org/project/denguedatasets/.}
-#' @details The dengue_colombia dataset has also been published in the denguedataset package in Python
+#' @details Dengue Challenge 2 - Make Health LATAM 2022. This challenge will provide a dataset for each municipality in Colombia, composed of weekly dengue cases between 2007 and 2019, along with other social and climatological variables. You will also find a special dataset we have prepared for the municipality of Medellín, with preprocessed climatological variables and a compressed version of satellite images for inclusion in the models. The dengue_colombia dataset has also been published in the denguedataset package in Python
 "dengue_colombia"
+
+#' Dengue cases and deaths in India
+#'
+#' This data contains dengue cases and deaths happening in each state of India over the years
+#'
+#' @format A dataframe object with 36 rows and 10 variables:
+#' \describe{
+#'   \item{num}{numeric id}
+#'   \item{states}{state of India}
+#'   \item{x2019_cases}{dengue cases of 2019}
+#'   \item{x2019_cases}{deaths cases of 2019}
+#'   \item{x2020_deaths}{dengue cases of 2020}
+#'   \item{x2020_cases}{deaths cases of 2020}
+#'   \item{x2021_deaths}{dengue cases of 2021}
+#'   \item{x2021_cases}{deaths cases of 2021}
+#'   \item{x2022_deaths}{dengue cases of 2022}
+#'   \item{x2022_cases}{deaths cases of 2022}
+#'   ...
+#' }
+#' @source \url{https://www.kaggle.com/datasets/jadhavpranav/dengue-cases-in-india, https://zenodo.org/records/21499199, https://fdzul.github.io/denguedatasets-py/, https://fdzul.github.io/denguedatasets-py/, https://pypi.org/project/denguedatasets/.}
+#' @details This data is scrapped from the National Center for Vector Borne Diseases Control. It's a website managed by the Ministry of Health & Family Welfare, Government of India. This data contains dengue cases and deaths happening in each state of India over the years. The dengue_india dataset has also been published in the denguedataset package in Python
+"dengue_india"
+
+#' Jakarta Dengue Cases and Weather Data from 2021 to 2024.
+#'
+#' This data contains dengue cases hospitalized of Jakarta
+#'
+#' @format A dataframe object with 2922 rows and 14 variables:
+#' \describe{
+#'   \item{id}{numeric id}
+#'   \item{reg}{Region of Regency or City}
+#'   \item{date}{Date of observation}
+#'   \item{tn}{Minimum temperature in Celsius}
+#'   \item{tx}{Maximum temperature in Celsius}
+#'   \item{tavg}{mean temperature in Celsius}
+#'   \item{rh_avg}{Average relative humidity in percent}
+#'   \item{rr}{Rainfall in mm}
+#'   \item{ss}{Sunshine duration in hours}
+#'   \item{ff_x}{Maximum wind speed in meters by seconds)}
+#'   \item{ddd_x}{Wind direction at maximum wind speed}
+#'   \item{ff_avg}{Average wind speed in meters by second)}
+#'   \item{ddd_car}{Most frequent wind direction}
+#'   \item{cases}{Number of hospitalized patients}
+#'   ...
+#' }
+#' @source \url{https://www.kaggle.com/datasets/yutakatarokusumah/jakarta-dengue-weather-2021-2024, https://zenodo.org/records/21499199, https://fdzul.github.io/denguedatasets-py/, https://fdzul.github.io/denguedatasets-py/, https://pypi.org/project/denguedatasets/.}
+#' @details The dengue_jakarta dataset has also been published in the denguedataset package in Python. jupyter notebook related https://www.kaggle.com/code/yutakatarokusumah/jakarta-dengue-risk-prediction
+"dengue_jakarta"
+
+#' Dengue surveillance data of Pakistan.
+#'
+#' This dataset contains monthly dengue fever surveillance data from Pakistan covering the period from 2016 to 2020.
+#'
+#' @format A dataframe object with 420 rows and 5 variables:
+#' \describe{
+#'   \item{month}{Month name: January through December}
+#'   \item{year}{Year of observation from 2016 to 2020}
+#'   \item{region}{Province or territory name}
+#'   \item{dengue_cases}{Total number of confirmed dengue fever cases reported}
+#'   \item{dengue_deaths}{Total number of deaths attributed to dengue fever}
+#'   ...
+#' }
+#' @source \url{https://www.kaggle.com/datasets/aamir28/pakistan-dengue-surveillance-data-2016-2020, https://zenodo.org/records/21499199, https://fdzul.github.io/denguedatasets-py/, https://fdzul.github.io/denguedatasets-py/, https://pypi.org/project/denguedatasets/.}
+#' @details This dataset contains monthly dengue fever surveillance data from Pakistan covering the period 2016-2020. It provides comprehensive information on dengue cases and deaths across all provinces and territories, making it valuable for epidemiological research, public health policy development, and disease outbreak analysis. Time Period: January 2016 to December 2020 (5 years). Geographic Coverage: All provinces and territories of Pakistan. Frequency: Monthly aggregated data. Total Records: 420 monthly observations. Geographic Regions Included Punjab: Most populous province, Sindh: Second largest province including Karachi, KPK (Khyber Pakhtunkhwa): Northwestern province, Balochistan: Largest province by area, ICT (Islamabad Capital Territory): Federal capital territory, AJK (Azad Jammu & Kashmir): Administered territory, GB (Gilgit-Baltistan): Northern territory.The dengue_pakistan dataset has also been published in the denguedataset package in Python. jupyter notebook related https://www.kaggle.com/code/yutakatarokusumah/jakarta-dengue-risk-prediction
+"dengue_pakistan"
+
+#' Dengue data in Peru from 2019 to 2022.
+#'
+#' This dataset contains yearly dengue cases from 2019 to 2022.
+#'
+#' @format A dataframe object with 171281 rows and 8 variables:
+#' \describe{
+#'   \item{departament}{name state}
+#'   \item{province}{name of province}
+#'   \item{district}{name of distric}
+#'   \item{dengue_type}{dengue type}
+#'   \item{year}{year}
+#'   \item{week}{week}
+#'   \item{age}{age}
+#'   \item{sex}sex}
+#'   ...
+#' }
+#' @source \url{https://www.kaggle.com/datasets/fazzzzzzzzzz/datos-dengue-en-el-per-2019-2022-en-csv, https://zenodo.org/records/21499199, https://fdzul.github.io/denguedatasets-py/, https://fdzul.github.io/denguedatasets-py/, https://pypi.org/project/denguedatasets/.}
+#' @details The dengue_peru dataset has also been published in the denguedataset package in Python. You can find the Zenodo page https://zenodo.org/records/21499199, GitHub repository https://github.com/fdzul/denguedatasets-py, GitHub Pages https://fdzul.github.io/denguedatasets-py/, and PyPI index at the following links https://pypi.org/project/denguedatasets/.
+"dengue_peru"
+
+

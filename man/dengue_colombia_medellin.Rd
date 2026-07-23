@@ -30,6 +30,6 @@ dengue_colombia_medellin
 Dataset with weekly Dengue cases, temperature and precipitation in Medellin using the epidemiological week.
 }
 \details{
-The dengue_colombia_medellin dataset has also been published in the denguedataset package in Python
+Dengue Challenge 2 - Make Health LATAM 2022. This challenge will provide a dataset for each municipality in Colombia, composed of weekly dengue cases between 2007 and 2019, along with other social and climatological variables. You will also find a special dataset we have prepared for the municipality of Medellín, with preprocessed climatological variables and a compressed version of satellite images for inclusion in the models. The dengue_colombia_medellin dataset has also been published in the denguedataset package in Python
 }
 \keyword{datasets}
