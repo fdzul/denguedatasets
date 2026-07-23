@@ -19,6 +19,13 @@ issues](https://img.shields.io/github/issues/fdzul/denguedatasets)](https://gith
 release](https://img.shields.io/github/v/release/fdzul/denguedatasets)](https://github.com/fdzul/denguedatasets/releases)
 [![GitHub all releases
 downloads](https://img.shields.io/github/downloads/fdzul/denguedatasets/total)](https://github.com/fdzul/denguedatasets/releases)
+[![Build
+Status](https://travis-ci.com/fdzul/rgeomex.svg?branch=main)](https://travis-ci.com/fdzul/rgeomex)
+[![HitCount](https://hits.dwyl.com/fdzul/fdzul/rgeomex.svg?style=flat-square)](http://hits.dwyl.com/fdzul/fdzul/rgeomex)
+![GitHub all
+releases](https://img.shields.io/github/downloads/fdzul/rgeomex/total)
+[![Codecov test
+coverage](https://codecov.io/gh/fdzul/rgeomex/branch/master/graph/badge.svg)](https://codecov.io/gh/fdzul/rgeomex?branch=master)
 <!-- badges: end -->
 
 `denguedatasets` is an R package that provides a curated collection of

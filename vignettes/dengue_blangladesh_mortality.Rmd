@@ -1,0 +1,44 @@
+---
+title: "Climatic Influence on Dengue Mortality"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Climatic Influence on Dengue Mortality}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(denguedatasets)
+```
+
+
+The objective of this document is to show and provide elements of the exploratory data analysis so that users can have a quick view of the structure, data types, column names, and number of rows.
+
+## EDA with function glimpse of dplyr package
+```{r}
+dplyr::glimpse(dengue_bangladesh_mortality)
+```
+
+
+## EDA with skim
+```{r}
+skimr::skim(dengue_bangladesh_mortality)
+```
+
+## EDA with function tbl_summary of gtsummary package
+```{r}
+gtsummary::tbl_summary(dengue_bangladesh_mortality)
+```
+
+## EDA with function gt_plt_summary of gtExtras package
+```{r}
+gtExtras::gt_plt_summary(dengue_bangladesh_mortality)
+```
+

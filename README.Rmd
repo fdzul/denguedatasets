@@ -24,6 +24,10 @@ knitr::opts_chunk$set(
 [![GitHub issues](https://img.shields.io/github/issues/fdzul/denguedatasets)](https://github.com/fdzul/denguedatasets/issues)
 [![GitHub release](https://img.shields.io/github/v/release/fdzul/denguedatasets)](https://github.com/fdzul/denguedatasets/releases)
 [![GitHub all releases downloads](https://img.shields.io/github/downloads/fdzul/denguedatasets/total)](https://github.com/fdzul/denguedatasets/releases)
+[![Build Status](https://travis-ci.com/fdzul/rgeomex.svg?branch=main)](https://travis-ci.com/fdzul/rgeomex) 
+[![HitCount](https://hits.dwyl.com/fdzul/fdzul/rgeomex.svg?style=flat-square)](http://hits.dwyl.com/fdzul/fdzul/rgeomex)
+![GitHub all releases](https://img.shields.io/github/downloads/fdzul/rgeomex/total)
+[![Codecov test coverage](https://codecov.io/gh/fdzul/rgeomex/branch/master/graph/badge.svg)](https://codecov.io/gh/fdzul/rgeomex?branch=master)
 <!-- badges: end -->
 
 `denguedatasets` is an R package that provides a curated collection of open-access dengue fever surveillance and climate datasets for epidemiological research and machine learning. It includes surveillance records, climatic covariates, and mortality indicators from Bangladesh, the Philippines, Taiwan, Sri Lanka, Brazil, Colombia, Pakistan, India, Peru, Indonesia, and Sierra Leone, covering case counts, deaths, case-fatality rates, and associated meteorological variables (temperature, humidity, precipitation) suitable for spatiotemporal analysis, outbreak prediction, machine learning, and time-series modeling. Original sources come from Kaggle.
