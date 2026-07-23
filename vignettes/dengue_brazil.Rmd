@@ -1,8 +1,8 @@
 ---
-title: "Dengue Dataset of Bangladesh"
+title: "Brazil Dengue Dataset"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Dengue Dataset of Bangladesh}
+  %\VignetteIndexEntry{Brazil Dengue Dataset}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -22,7 +22,7 @@ The objective of this document is to show and provide elements of the explorator
 
 ## EDA with function glimpse of dplyr package
 ```{r}
-dplyr::glimpse(dengue_bangladesh)
+dplyr::glimpse(dengue_brazil)
 ```
 
 
@@ -33,12 +33,12 @@ skimr::skim(dengue_bangladesh)
 
 ## EDA with function tbl_summary of gtsummary package
 ```{r}
-gtsummary::tbl_summary(dengue_bangladesh)
+gtsummary::tbl_summary(dengue_brazil)
 ```
 
 ## EDA with function gt_plt_summary of gtExtras package
 ```{r}
-gtExtras::gt_plt_summary(dengue_bangladesh)
+gtExtras::gt_plt_summary(dengue_brazil)
 ```
 
 
