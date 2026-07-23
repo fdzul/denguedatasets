@@ -49,4 +49,7 @@ dengue_taiwan
 \description{
 Daily and Regional Confirmed Cases of Dengue from 1998 to 2024
 }
+\details{
+The dataset contains detailed information on dengue fever cases since 1998, encompassing various aspects such as dates, geographical locations, and serotype details. This data can be leveraged to analyze temporal trends, spatial distribution, and the serotype of dengue cases. It is valuable for understanding the disease's progression, its impact across different regions, and the effectiveness of intervention measures over time. The dengue_taiwan dataset has also been published in the denguedataset package in Python. You can find the [Zenodo page](https://zenodo.org/records/21499199), [GitHub repository](https://github.com/fdzul/denguedatasets-py), [GitHub Pages](https://fdzul.github.io/denguedatasets-py/), and PyPI index at the following links https://pypi.org/project/denguedatasets/.
+}
 \keyword{datasets}

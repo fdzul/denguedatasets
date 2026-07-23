@@ -258,7 +258,7 @@
 #'   \item{sex}sex}
 #'   ...
 #' }
-#' @source \url{https://www.kaggle.com/datasets/fazzzzzzzzzz/datos-dengue-en-el-per-2019-2022-en-csv, https://zenodo.org/records/21499199, https://fdzul.github.io/denguedatasets-py/, https://fdzul.github.io/denguedatasets-py/, https://pypi.org/project/denguedatasets/.}
+#' @source \url{https://www.kaggle.com/datasets/fazzzzzzzzzz/datos-dengue-en-el-per-2019-2022-en-csv, https://zenodo.org/records/21499199, https://fdzul.github.io/denguedatasets-py/, https://fdzul.github.io/denguedatasets-py/, https://pypi.org/project/denguedatasets/}
 #' @details The dengue_peru dataset has also been published in the denguedataset package in Python. You can find the Zenodo page https://zenodo.org/records/21499199, GitHub repository https://github.com/fdzul/denguedatasets-py, GitHub Pages https://fdzul.github.io/denguedatasets-py/, and PyPI index at the following links https://pypi.org/project/denguedatasets/.
 "dengue_peru"
 
@@ -414,5 +414,5 @@
 #'   ...
 #' }
 #' @source \url{https://www.kaggle.com/datasets/taweilo/taiwan-dengue-daily-confirmed-cases-1998-2024, https://zenodo.org/records/21499199, https://fdzul.github.io/denguedatasets-py/, https://fdzul.github.io/denguedatasets-py/, https://pypi.org/project/denguedatasets/}
-#' @detailsThe dataset contains detailed information on dengue fever cases since 1998, encompassing various aspects such as dates, geographical locations, and serotype details. This data can be leveraged to analyze temporal trends, spatial distribution, and the serotype of dengue cases. It is valuable for understanding the disease's progression, its impact across different regions, and the effectiveness of intervention measures over time. The dengue_taiwan dataset has also been published in the denguedataset package in Python. You can find the [Zenodo page](https://zenodo.org/records/21499199), [GitHub repository](https://github.com/fdzul/denguedatasets-py), [GitHub Pages](https://fdzul.github.io/denguedatasets-py/), and PyPI index at the following links https://pypi.org/project/denguedatasets/.
+#' @details The dataset contains detailed information on dengue fever cases since 1998, encompassing various aspects such as dates, geographical locations, and serotype details. This data can be leveraged to analyze temporal trends, spatial distribution, and the serotype of dengue cases. It is valuable for understanding the disease's progression, its impact across different regions, and the effectiveness of intervention measures over time. The dengue_taiwan dataset has also been published in the denguedataset package in Python. You can find the [Zenodo page](https://zenodo.org/records/21499199), [GitHub repository](https://github.com/fdzul/denguedatasets-py), [GitHub Pages](https://fdzul.github.io/denguedatasets-py/), and PyPI index at the following links https://pypi.org/project/denguedatasets/.
 "dengue_taiwan"

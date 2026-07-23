@@ -8,7 +8,7 @@
 
 }
 \source{
-\url{https://www.kaggle.com/datasets/fazzzzzzzzzz/datos-dengue-en-el-per-2019-2022-en-csv, https://zenodo.org/records/21499199, https://fdzul.github.io/denguedatasets-py/, https://fdzul.github.io/denguedatasets-py/, https://pypi.org/project/denguedatasets/.}
+\url{https://www.kaggle.com/datasets/fazzzzzzzzzz/datos-dengue-en-el-per-2019-2022-en-csv, https://zenodo.org/records/21499199, https://fdzul.github.io/denguedatasets-py/, https://fdzul.github.io/denguedatasets-py/, https://pypi.org/project/denguedatasets/}
 }
 \usage{
 dengue_peru
