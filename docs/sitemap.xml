@@ -1,12 +1,16 @@
 <urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
-<url><loc>/404.html</loc></url>
-<url><loc>/LICENSE-text.html</loc></url>
-<url><loc>/LICENSE.html</loc></url>
-<url><loc>/authors.html</loc></url>
-<url><loc>/index.html</loc></url>
-<url><loc>/reference/dengue_bangladesh.html</loc></url>
-<url><loc>/reference/dengue_bangladesh_mortality.html</loc></url>
-<url><loc>/reference/hello.html</loc></url>
-<url><loc>/reference/index.html</loc></url>
+<url><loc>https://fdzul.github.io/denguedatasets/404.html</loc></url>
+<url><loc>https://fdzul.github.io/denguedatasets/LICENSE-text.html</loc></url>
+<url><loc>https://fdzul.github.io/denguedatasets/LICENSE.html</loc></url>
+<url><loc>https://fdzul.github.io/denguedatasets/authors.html</loc></url>
+<url><loc>https://fdzul.github.io/denguedatasets/index.html</loc></url>
+<url><loc>https://fdzul.github.io/denguedatasets/reference/dengue_bangladesh.html</loc></url>
+<url><loc>https://fdzul.github.io/denguedatasets/reference/dengue_bangladesh_mortality.html</loc></url>
+<url><loc>https://fdzul.github.io/denguedatasets/reference/dengue_brazil.html</loc></url>
+<url><loc>https://fdzul.github.io/denguedatasets/reference/dengue_brazil_labels.html</loc></url>
+<url><loc>https://fdzul.github.io/denguedatasets/reference/dengue_colombia.html</loc></url>
+<url><loc>https://fdzul.github.io/denguedatasets/reference/dengue_colombia_medellin.html</loc></url>
+<url><loc>https://fdzul.github.io/denguedatasets/reference/hello.html</loc></url>
+<url><loc>https://fdzul.github.io/denguedatasets/reference/index.html</loc></url>
 </urlset>
 

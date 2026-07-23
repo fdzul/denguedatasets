@@ -3,8 +3,7 @@
 \docType{data}
 \name{dengue_bangladesh_mortality}
 \alias{dengue_bangladesh_mortality}
-\title{Climatic Influence on Dengue Mortality
-This dataset explores the spatio-temporal interaction between climate variability and dengue outbreaks across six divisions of Bangladesh from 2000 to 2024. It connects meteorological parameters with epidemiological indicators (cases, deaths, and case-fatality rate) to uncover how changing weather patterns influence dengue mortality}
+\title{Climatic Influence on Dengue Mortality}
 \format{
 A dataframe object with 150 rows and 15 variables:
 \describe{
@@ -31,7 +30,6 @@ A dataframe object with 150 rows and 15 variables:
 dengue_bangladesh_mortality
 }
 \description{
-Climatic Influence on Dengue Mortality
 This dataset explores the spatio-temporal interaction between climate variability and dengue outbreaks across six divisions of Bangladesh from 2000 to 2024. It connects meteorological parameters with epidemiological indicators (cases, deaths, and case-fatality rate) to uncover how changing weather patterns influence dengue mortality
 }
 \details{
