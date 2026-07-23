@@ -50,53 +50,8 @@
   </div>
 </nav><div class="container template-home">
 <div class="row">
-  <main id="main" class="col-md-9"><div class="section level1">
-<div class="page-header">
-<img src="logo.png" class="logo" alt=""><h1 id="denguedatasets-">denguedatasets <a class="anchor" aria-label="anchor" href="#denguedatasets-"></a>
-</h1>
-</div>
-<!-- badges: start -->
-
-<p>denguedatasets` is an R package that provides a curated collection of open-access dengue fever surveillance and climate datasets for epidemiological research and machine learning. It includes surveillance records, climatic covariates, and mortality indicators from Bangladesh, the Philippines, Taiwan, Sri Lanka, Brazil, Colombia, Pakistan, India, Peru, Indonesia, and Sierra Leone, covering case counts, deaths, case-fatality rates, and associated meteorological variables (temperature, humidity, precipitation) suitable for spatiotemporal analysis, outbreak prediction, machine learning, and time-series modeling. Original sources come from Kaggle.</p>
-<hr>
-<div class="section level2">
-<h2 id="philosophy">Philosophy<a class="anchor" aria-label="anchor" href="#philosophy"></a>
-</h2>
-<p>The authors’ vision is to create data packages, functions, or a combination of both in <strong>Julia</strong>, <em>R</em>, and <strong>Python</strong>, contributing to the interoperability of algorithms and data to transform the information into decisions that help solve specific problems.</p>
-<p>In the case of data packages, the authors’ vision is to create specialized packages focused on specific topics and subtopics. Instead of searching through multiple diverse and heterogeneous sources, users can access all these interesting datasets in a single package.</p>
-<p>Specifically, in the case of the <strong>denguedasets</strong> package, each included dataset is specialized in dengue fever, providing a valuable source of information for academics, data scientists, statisticians, modelers, university professors, or students interested in working with this combination of topics.</p>
-<hr>
-</div>
-<div class="section level2">
-<h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
-</h2>
-<p><strong>From GitHub</strong></p>
-<p>To get the latest development version with newest features and bugs fixes is directlty from GitHub:</p>
-<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="co"># install.packages("pak")</span></span>
-<span><span class="fu">pak</span><span class="fu">::</span><span class="fu"><a href="https://pak.r-lib.org/reference/pkg_install.html" class="external-link">pkg_install</a></span><span class="op">(</span><span class="st">"fdzul/denguedatasets"</span><span class="op">)</span></span></code></pre></div>
-</div>
-<div class="section level2">
-<h2 id="usage">Usage<a class="anchor" aria-label="anchor" href="#usage"></a>
-</h2>
-<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="st"><a href="https://fdzul.github.io/denguedatasets/">"denguedatasets"</a></span><span class="op">)</span></span></code></pre></div>
-<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="st">"denguedatasets"</span>, package <span class="op">=</span> <span class="st">"denguedatasets"</span><span class="op">)</span></span></code></pre></div>
-</div>
-<div class="section level2">
-<h2 id="license">License<a class="anchor" aria-label="anchor" href="#license"></a>
-</h2>
-<p>This project is licensed under the MIT License - see the file <a href="LICENSE.html">LICENSE.md</a> for details.</p>
-</div>
-<div class="section level2">
-<h2 id="help">Help.<a class="anchor" aria-label="anchor" href="#help"></a>
-</h2>
-<p>If you find a bug in the code, please submit a minimal, reproducible example to <a href="https://github.com/fdzul/denguedatasets/issues" class="external-link">github</a>. For questions and further discussion, feel free to contact me at <a href="mailto:felipe.dzul.m@gmail.com" class="email">felipe.dzul.m@gmail.com</a>.</p>
-<hr>
-<p>Please note that this project is published with a <a href="https://dplyr.tidyverse.org/CODE_OF_CONDUCT" class="external-link">Code of Conduct</a>. By participating in this project, you agree to abide by its terms.</p>
-</div>
-</div>
+  <main id="main" class="col-md-9">
+The denguedasets package provide a curated collection of open-access dengue fever surveillance and climate datasets for epidemiological research and machine learning. Includes surveillance records, climatic co-variates, and mortality indicators from Bangladesh, the Philippines, Taiwan, Sri Lanka, Brazil, Colombia, Pakistan, India, Peru, Indonesia, and Sierra Leone, spanning case counts, deaths, case-fatality rates, and associated meteorological variables (temperature, humidity, precipitation) suitable for spatiotemporal analysis, outbreak prediction, machine learning, and time-series modeling from Kaggle.
   </main><aside class="col-md-3"><div class="license">
 <h2 data-toc-skip>License</h2>
 <ul class="list-unstyled">
@@ -121,19 +76,7 @@
 </ul>
 </div>
 
-<div class="dev-status">
-<h2 data-toc-skip>Dev status</h2>
-<ul class="list-unstyled">
-<li><a href="https://github.com/fdzul/denguedatasets/actions/workflows/R-CMD-check.yaml" class="external-link"><img src="https://github.com/fdzul/denguedatasets/actions/workflows/R-CMD-check.yaml/badge.svg" alt="R-CMD-check"></a></li>
-<li><a href="https://fdzul.github.io/denguedatasets/"><img src="https://github.com/fdzul/denguedatasets/actions/workflows/pkgdown.yaml/badge.svg" alt="pkgdown"></a></li>
-<li><a href="https://lifecycle.r-lib.org/articles/stages.html#experimental" class="external-link"><img src="https://img.shields.io/badge/lifecycle-experimental-orange.svg" alt="Lifecycle: experimental"></a></li>
-<li><a href="LICENSE.html"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT"></a></li>
-<li><a href="https://github.com/fdzul/denguedatasets/commits/main" class="external-link"><img src="https://img.shields.io/github/last-commit/fdzul/denguedatasets" alt="GitHub last commit"></a></li>
-<li><a href="https://github.com/fdzul/denguedatasets/issues" class="external-link"><img src="https://img.shields.io/github/issues/fdzul/denguedatasets" alt="GitHub issues"></a></li>
-<li><a href="https://github.com/fdzul/denguedatasets/releases" class="external-link"><img src="https://img.shields.io/github/v/release/fdzul/denguedatasets" alt="GitHub release"></a></li>
-<li><a href="https://github.com/fdzul/denguedatasets/releases" class="external-link"><img src="https://img.shields.io/github/downloads/fdzul/denguedatasets/total" alt="GitHub all releases downloads"></a></li>
-</ul>
-</div>
+
 
   </aside>
 </div>
