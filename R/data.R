@@ -252,13 +252,13 @@
 #'   \item{province}{name of province}
 #'   \item{district}{name of distric}
 #'   \item{dengue_type}{dengue type}
-#'   \item{year}{year}
-#'   \item{week}{week}
-#'   \item{age}{age}
-#'   \item{sex}sex}
+#'   \item{year}{year of cases}
+#'   \item{week}{week of year}
+#'   \item{age}{age of case}
+#'   \item{sex}{gender}
 #'   ...
 #' }
-#' @source \url{https://www.kaggle.com/datasets/fazzzzzzzzzz/datos-dengue-en-el-per-2019-2022-en-csv, https://zenodo.org/records/21499199, https://fdzul.github.io/denguedatasets-py/, https://fdzul.github.io/denguedatasets-py/, https://pypi.org/project/denguedatasets/}
+#' @source \url{https://www.kaggle.com/datasets/fazzzzzzzzzz/datos-dengue-en-el-per-2019-2022-en-csv, https://zenodo.org/records/21499199, https://fdzul.github.io/denguedatasets-py/, https://fdzul.github.io/denguedatasets-py/, https://pypi.org/project/denguedatasets/.}
 #' @details The dengue_peru dataset has also been published in the denguedataset package in Python. You can find the Zenodo page https://zenodo.org/records/21499199, GitHub repository https://github.com/fdzul/denguedatasets-py, GitHub Pages https://fdzul.github.io/denguedatasets-py/, and PyPI index at the following links https://pypi.org/project/denguedatasets/.
 "dengue_peru"
 

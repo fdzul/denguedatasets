@@ -5,10 +5,21 @@
 \alias{dengue_peru}
 \title{Dengue data in Peru from 2019 to 2022.}
 \format{
-
+A dataframe object with 171281 rows and 8 variables:
+\describe{
+  \item{departament}{name state}
+  \item{province}{name of province}
+  \item{district}{name of distric}
+  \item{dengue_type}{dengue type}
+  \item{year}{year of cases}
+  \item{week}{week of year}
+  \item{age}{age of case}
+  \item{sex}{gender}
+  ...
+}
 }
 \source{
-\url{https://www.kaggle.com/datasets/fazzzzzzzzzz/datos-dengue-en-el-per-2019-2022-en-csv, https://zenodo.org/records/21499199, https://fdzul.github.io/denguedatasets-py/, https://fdzul.github.io/denguedatasets-py/, https://pypi.org/project/denguedatasets/}
+\url{https://www.kaggle.com/datasets/fazzzzzzzzzz/datos-dengue-en-el-per-2019-2022-en-csv, https://zenodo.org/records/21499199, https://fdzul.github.io/denguedatasets-py/, https://fdzul.github.io/denguedatasets-py/, https://pypi.org/project/denguedatasets/.}
 }
 \usage{
 dengue_peru
