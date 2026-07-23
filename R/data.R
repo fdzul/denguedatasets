@@ -262,4 +262,157 @@
 #' @details The dengue_peru dataset has also been published in the denguedataset package in Python. You can find the Zenodo page https://zenodo.org/records/21499199, GitHub repository https://github.com/fdzul/denguedatasets-py, GitHub Pages https://fdzul.github.io/denguedatasets-py/, and PyPI index at the following links https://pypi.org/project/denguedatasets/.
 "dengue_peru"
 
+#' Philippines Dengue Cases from 2016 to 2020
+#'
+#' This dataset contains monthly and regional cases of dengue from 2016 to 2020
+#'
+#' @format A dataframe object with 1020 rows and 5 variables:
+#' \describe{
+#'   \item{month}{Month of the year in text format}
+#'   \item{year}{Ranges from 2016 to 2020 in numerical format}
+#'   \item{region}{Region in the Philippines}
+#'   \item{dengue_cases}{Number of Monthly Cases per region}
+#'   \item{dengue_deaths}{Number of Monthly Deaths per region due to dengue}
+#'   ...
+#' }
+#' @source \url{https://www.kaggle.com/datasets/vincentgupo/dengue-cases-in-the-philippines, https://zenodo.org/records/21499199, https://fdzul.github.io/denguedatasets-py/, https://fdzul.github.io/denguedatasets-py/, https://pypi.org/project/denguedatasets/.}
+#' @details Data set contains the recorded number of dengue cases per region of the Philippines from year 2016 to 2020. It can be used to find trends about the disease as well as spatiotemporal analysis that can result into data-driven solution about the trends of the desease for the past 5 years. The dengue_philippines dataset has also been published in the denguedataset package in Python. You can find the Zenodo page https://zenodo.org/records/21499199, GitHub repository https://github.com/fdzul/denguedatasets-py, GitHub Pages https://fdzul.github.io/denguedatasets-py/, and PyPI index at the following links https://pypi.org/project/denguedatasets/.
+"dengue_philippines"
 
+#' The Sierra Leone Freetown DengueAI Dataset from 2015 to 2024
+#'
+#' The dataset captures monthly variations in temperature, humidity, and precipitation, as well as confirmed dengue cases in Freetown, Sierra Leone.
+#'
+#' @format A dataframe object with 120 rows and 5 variables:
+#' \describe{
+#'   \item{date}{date}
+#'   \item{temperature_c}{Temperature in celsius}
+#'   \item{humidity_percent}{Humidity}
+#'   \item{precipitation_mm}{Precipitation}
+#'   \item{dengue_cases}{dengue cases}
+#'   ...
+#' }
+#' @author Michael Marko Sesay. 2025. Sierra Leone Freetown DengueAI Dataset (2015–2024) [Data set]. Kaggle. https://doi.org/10.34740/KAGGLE/DSV/13257213
+#' @source \url{ - https://www.kaggle.com/datasets/michaalmarkosesay/sierra-leone-freetown-dengueai-dataset-20152024 - https://zenodo.org/records/21499199, - https://fdzul.github.io/denguedatasets-py/ - https://fdzul.github.io/denguedatasets-py/  - https://pypi.org/project/denguedatasets/.}
+#' @details The Sierra Leone Freetown DengueAI Dataset from 2015 to 2024 offers an integrated collection of epidemiological and climatic variables, specifically designed for AI-based dengue outbreak prediction and time-series modeling. The dataset captures monthly variations in temperature, humidity, and precipitation, as well as confirmed dengue cases in Freetown, Sierra Leone. Data sources include OpenDengue and NOAA GSOD.The dengue_sierra_leone dataset has also been published in the denguedataset package in Python. You can find the [Zenodo page](https://zenodo.org/records/21499199), [GitHub repository](https://github.com/fdzul/denguedatasets-py), [GitHub Pages](https://fdzul.github.io/denguedatasets-py/), and PyPI index at the following links https://pypi.org/project/denguedatasets/.
+"dengue_sierra_leone"
+
+#' Sri Lanka Dengue Data of 2019
+#'
+#' District & Provincial Trends: Monthly Dengue Insights from 2019
+#'
+#' @format A dataframe object with 26 rows and 14 variables:
+#' \describe{
+#'   \item{Province}{The province in Sri Lanka where data was recorded.}
+#'   \item{District}{Specific district within the province}
+#'   \item{jan}{dengue cases of january}
+#'   \item{feb}{dengue cases of febrary}
+#'   \item{mar}{dengue cases of march}
+#'   \item{apr}{dengue cases of april}
+#'   \item{may}{dengue cases of may}
+#'   \item{june}{dengue cases of june}
+#'   \item{july}{dengue cases of july}
+#'   \item{aug}{dengue cases of august}
+#'   \item{sept}{dengue cases of september}
+#'   \item{oct}{dengue cases of octuber}
+#'   \item{nov}{dengue cases of november}
+#'   \item{dec}{dengue cases of december}
+#'   ...
+#' }
+#' @source \url{https://www.kaggle.com/datasets/kanchana1990/sri-lanka-dengue-data-2019-2021-insights, https://zenodo.org/records/21499199, https://fdzul.github.io/denguedatasets-py/, https://fdzul.github.io/denguedatasets-py/, https://pypi.org/project/denguedatasets/}
+#' @details A comprehensive record of dengue cases across all districts and provinces in Sri Lanka, detailing monthly occurrences from January to December for the years 2019-2021. Data serves as a critical resource for understanding the epidemiological trends of dengue, facilitating public health responses and preventive strategies. Though compact, this dataset offers rich opportunities for data science applications including trend analysis, hotspot detection, and predictive modeling for future outbreaks. Data was meticulously compiled and made available by the National Dengue Control Unit (NDCU) of Sri Lanka. For more details, visit the NDCU Dengue Information Portal. The dengue_sri_lanka_2019 dataset has also been published in the denguedataset package in Python. You can find the [Zenodo page](https://zenodo.org/records/21499199), [GitHub repository](https://github.com/fdzul/denguedatasets-py), [GitHub Pages](https://fdzul.github.io/denguedatasets-py/), and PyPI index at the following links https://pypi.org/project/denguedatasets/.
+"dengue_sri_lanka_2019"
+
+#' Sri Lanka Dengue Data of 2020
+#'
+#' District & Provincial Trends: Monthly Dengue Insights from 2020
+#'
+#' @format A dataframe object with 26 rows and 14 variables:
+#' \describe{
+#'   \item{Province}{The province in Sri Lanka where data was recorded.}
+#'   \item{District}{Specific district within the province}
+#'   \item{jan}{dengue cases of january}
+#'   \item{feb}{dengue cases of febrary}
+#'   \item{mar}{dengue cases of march}
+#'   \item{apr}{dengue cases of april}
+#'   \item{may}{dengue cases of may}
+#'   \item{june}{dengue cases of june}
+#'   \item{july}{dengue cases of july}
+#'   \item{aug}{dengue cases of august}
+#'   \item{sept}{dengue cases of september}
+#'   \item{oct}{dengue cases of octuber}
+#'   \item{nov}{dengue cases of november}
+#'   \item{dec}{dengue cases of december}
+#'   ...
+#' }
+#' @source \url{https://www.kaggle.com/datasets/kanchana1990/sri-lanka-dengue-data-2019-2021-insights, https://zenodo.org/records/21499199, https://fdzul.github.io/denguedatasets-py/, https://fdzul.github.io/denguedatasets-py/, https://pypi.org/project/denguedatasets/}
+#' @details A comprehensive record of dengue cases across all districts and provinces in Sri Lanka, detailing monthly occurrences from January to December for the years 2019-2021. Data serves as a critical resource for understanding the epidemiological trends of dengue, facilitating public health responses and preventive strategies. Though compact, this dataset offers rich opportunities for data science applications including trend analysis, hotspot detection, and predictive modeling for future outbreaks. Data was meticulously compiled and made available by the National Dengue Control Unit (NDCU) of Sri Lanka. For more details, visit the NDCU Dengue Information Portal. The dengue_sri_lanka_2020 dataset has also been published in the denguedataset package in Python. You can find the [Zenodo page](https://zenodo.org/records/21499199), [GitHub repository](https://github.com/fdzul/denguedatasets-py), [GitHub Pages](https://fdzul.github.io/denguedatasets-py/), and PyPI index at the following links https://pypi.org/project/denguedatasets/.
+"dengue_sri_lanka_2020"
+
+#' Sri Lanka Dengue Data of 2021
+#'
+#' District & Provincial Trends: Monthly Dengue Insights from 2021
+#'
+#' @format A dataframe object with 26 rows and 14 variables:
+#' \describe{
+#'   \item{Province}{The province in Sri Lanka where data was recorded.}
+#'   \item{District}{Specific district within the province}
+#'   \item{jan}{dengue cases of january}
+#'   \item{feb}{dengue cases of febrary}
+#'   \item{mar}{dengue cases of march}
+#'   \item{apr}{dengue cases of april}
+#'   \item{may}{dengue cases of may}
+#'   \item{june}{dengue cases of june}
+#'   \item{july}{dengue cases of july}
+#'   \item{aug}{dengue cases of august}
+#'   \item{sept}{dengue cases of september}
+#'   \item{oct}{dengue cases of octuber}
+#'   \item{nov}{dengue cases of november}
+#'   \item{dec}{dengue cases of december}
+#'   ...
+#' }
+#' @source \url{https://www.kaggle.com/datasets/kanchana1990/sri-lanka-dengue-data-2019-2021-insights, https://zenodo.org/records/21499199, https://fdzul.github.io/denguedatasets-py/, https://fdzul.github.io/denguedatasets-py/, https://pypi.org/project/denguedatasets/}
+#' @details A comprehensive record of dengue cases across all districts and provinces in Sri Lanka, detailing monthly occurrences from January to December for the years 2019-2021. Data serves as a critical resource for understanding the epidemiological trends of dengue, facilitating public health responses and preventive strategies. Though compact, this dataset offers rich opportunities for data science applications including trend analysis, hotspot detection, and predictive modeling for future outbreaks. Data was meticulously compiled and made available by the National Dengue Control Unit (NDCU) of Sri Lanka. For more details, visit the NDCU Dengue Information Portal. The dengue_sri_lanka_2021 dataset has also been published in the denguedataset package in Python. You can find the [Zenodo page](https://zenodo.org/records/21499199), [GitHub repository](https://github.com/fdzul/denguedatasets-py), [GitHub Pages](https://fdzul.github.io/denguedatasets-py/), and PyPI index at the following links https://pypi.org/project/denguedatasets/.
+"dengue_sri_lanka_2021"
+
+#' Taiwan Dengue Cases from 1998 to 2024
+#'
+#' Daily and Regional Confirmed Cases of Dengue from 1998 to 2024
+#'
+#' @format A dataframe object with 26 rows and 14 variables:
+#' \describe{
+#'   \item{date_onset}{Date when symptoms first appeared}
+#'   \item{date_confirmation}{ Date when the case was confirmed}
+#'   \item{date_notification}{Date when the case was reported}
+#'   \item{sex}{Gender of the affected individual}
+#'   \item{age_group}{Age category of the affected individual}
+#'   \item{county_living}{County where the individual resides}
+#'   \item{township_living}{Township where the individual resides}
+#'   \item{village_living}{Village where the individual resides}
+#'   \item{village_living_code}{ Code for the village of residence}
+#'   \item{enumeration_unit}{Statistical unit for enumeration}
+#'   \item{enumeration_unit_long}{Longitude of the enumeration unit}
+#'   \item{enumeration_unit_lat}{Latitude of the enumeration unit}
+#'   \item{first_level_dissemination_unit}{Highest administrative unit for dissemination}
+#'   \item{second_level_dissemination_unit}{Secondary administrative unit for dissemination}
+#'   \item{county_infected}{County where the individual was infected}
+#'   \item{township_infected}{Township where the individual was infected}
+#'   \item{village_infected}{where the individual was infected}
+#'   \item{village_infected_code}{Code for the infected village}
+#'   \item{imported}{Indicates if the case was imported from another country}
+#'   \item{country_infected}{Country where the infection was acquired.}
+#'   \item{number_of_confirmed_cases}{Number of confirmed dengue cases}
+#'   \item{serotype}{Serotype of the dengue virus}
+#'   \item{moi_county_living_code}{}
+#'   \item{moi_township_living_code}{Code for the township of residence from the Ministry of Interior}
+#'   \item{moi_county_living}{County code of Ministry of Interior}
+#'   \item{moi_township_living}{Township code (Ministry of Interior}
+#'   \item{moi_county_infected_code}{Code for the infected county of Ministry of Interior}
+#'   \item{moi_township_infected_code}{Code for the infected township of Ministry of Interior}
+#'   \item{moi_county_infected}{ Infected county code of Ministry of Interior}
+#'   \item{moi_township_infected}{Infected township code of Ministry of Interio)}
+#'   ...
+#' }
+#' @source \url{https://www.kaggle.com/datasets/taweilo/taiwan-dengue-daily-confirmed-cases-1998-2024, https://zenodo.org/records/21499199, https://fdzul.github.io/denguedatasets-py/, https://fdzul.github.io/denguedatasets-py/, https://pypi.org/project/denguedatasets/}
+#' @detailsThe dataset contains detailed information on dengue fever cases since 1998, encompassing various aspects such as dates, geographical locations, and serotype details. This data can be leveraged to analyze temporal trends, spatial distribution, and the serotype of dengue cases. It is valuable for understanding the disease's progression, its impact across different regions, and the effectiveness of intervention measures over time. The dengue_taiwan dataset has also been published in the denguedataset package in Python. You can find the [Zenodo page](https://zenodo.org/records/21499199), [GitHub repository](https://github.com/fdzul/denguedatasets-py), [GitHub Pages](https://fdzul.github.io/denguedatasets-py/), and PyPI index at the following links https://pypi.org/project/denguedatasets/.
+"dengue_taiwan"
