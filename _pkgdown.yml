@@ -1,44 +1,4 @@
 url: https://fdzul.github.io/denguedatasets/
 template:
   bootstrap: 5
-  bslib:
-    bg: '#FFFFFF'
-    fg: '#1B3A5B'
-    primary: '#1B3A5B'
-    secondary: '#2D8FC1'
-    success: '#2D8FC1'
-    info: '#2D8FC1'
-    warning: '#E8935E'
-    danger: '#E2725B'
-    base_font:
-      google: Roboto
-    heading_font:
-      google: Montserrat
-    link-color: '#E2725B'
-    navbar-bg: '#1B3A5B'
-  opengraph:
-    twitter:
-      creator: '@fdzul'
-      card: summary_large_image
-navbar:
-  bg: primary
-  type: dark
-  structure:
-    left:
-    - intro
-    - reference
-    - articles
-    - news
-    right:
-    - search
-    - github
-home:
-  title: denguedatasets
-  description: Curated dengue data for research & public health
-figures:
-  bg: '#FFFFFF'
-footer:
-  structure:
-    left: developed_by
-    right: built_with
 
