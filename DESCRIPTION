@@ -26,11 +26,15 @@ Description: The denguedasets package provide a curated collection of open-acces
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-Depends: 
+Depends:
     R (>= 3.5)
 Config/roxygen2/version: 8.0.0
 URL: https://fdzul.github.io/denguedatasets/
-Suggests: 
+Suggests:
     knitr,
-    rmarkdown
+    rmarkdown,
+    dplyr,
+    gtExtras,
+    gtsummary,
+    skimr
 VignetteBuilder: knitr
