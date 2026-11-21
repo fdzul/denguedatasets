@@ -36,5 +36,6 @@ Suggests:
     dplyr,
     gtExtras,
     gtsummary,
-    skimr
+    skimr,
+    svglite
 VignetteBuilder: knitr
