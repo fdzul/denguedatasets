@@ -1,0 +1,23 @@
+pandoc: 3.8.3
+pkgdown: 2.2.1
+pkgdown_sha: ~
+articles:
+  dengue_blangladesh_mortality: dengue_blangladesh_mortality.html
+  dengue_blangladesh: dengue_blangladesh.html
+  dengue_brazil: dengue_brazil.html
+  dengue_colombia_medellin: dengue_colombia_medellin.html
+  dengue_colombia: dengue_colombia.html
+  dengue_india: dengue_india.html
+  dengue_jakarta: dengue_jakarta.html
+  dengue_pakistan: dengue_pakistan.html
+  dengue_peru: dengue_peru.html
+  dengue_philippines: dengue_philippines.html
+  dengue_sierra_leone: dengue_sierra_leone.html
+  dengue_sri_lanka_2019: dengue_sri_lanka_2019.html
+  dengue_sri_lanka_2020: dengue_sri_lanka_2020.html
+  dengue_sri_lanka_2021: dengue_sri_lanka_2021.html
+  dengue_taiwan: dengue_taiwan.html
+last_built: 2026-11-22T20:15Z
+urls:
+  reference: https://fdzul.github.io/denguedatasets/reference
+  article: https://fdzul.github.io/denguedatasets/articles

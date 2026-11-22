@@ -1,0 +1,147 @@
+# denguedatasets
+
+`denguedatasets` is an R package that provides a curated collection of
+open-access dengue fever surveillance and climate datasets for
+epidemiological research and machine learning. It includes surveillance
+records, climatic covariates, and mortality indicators from Bangladesh,
+the Philippines, Taiwan, Sri Lanka, Brazil, Colombia, Pakistan, India,
+Peru, Indonesia, and Sierra Leone, covering case counts, deaths,
+case-fatality rates, and associated meteorological variables
+(temperature, humidity, precipitation) suitable for spatiotemporal
+analysis, outbreak prediction, machine learning, and time-series
+modeling. Original sources come from Kaggle.
+
+## Philosophy
+
+The authors’ vision is to create data packages, functions, or a
+combination of both in **Julia**, **R**, and **Python**, contributing to
+the interoperability of algorithms and data to transform the information
+into decisions that help solve specific problems.
+
+In the case of data packages, the authors’ vision is to create
+specialized packages focused on specific topics and subtopics. Instead
+of searching through multiple diverse and heterogeneous sources, users
+can access all these interesting datasets in a single package.
+
+Specifically, in the case of the denguedasets package, each included
+dataset is specialized in dengue fever, providing a valuable source of
+information for academics, data scientists, statisticians, modelers,
+university professors, or students interested in working with this
+combination of topics.
+
+## Installation
+
+You can install the development version of denguedatasets from
+[GitHub](https://github.com/) with:
+
+``` r
+
+# install.packages("pak")
+pak::pak("fdzul/denguedatasets")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+``` r
+
+library(denguedatasets)
+## basic example code
+```
+
+``` r
+
+data("dengue_peru", package = "denguedatasets")
+```
+
+## License
+
+This project is licensed under the MIT License - see the
+[LICENSE.md](https://fdzul.github.io/denguedatasets/LICENSE.md) file for
+details.
+
+## Help
+
+If you find a bug in the code, please submit a minimal, reproducible
+example on [GitHub](https://github.com/fdzul/denguedatasets/issues). For
+questions and further discussion, feel free to contact me at
+<felipe.dzul.m@gmail.com>.
+
+------------------------------------------------------------------------
+
+Please note that this project is released with a [Code of
+Conduct](https://fdzul.github.io/denguedatasets/CODE_OF_CONDUCT.md). By
+participating in this project, you agree to abide by its terms.
+
+# Package index
+
+## All functions
+
+- [`dengue_bangladesh`](https://fdzul.github.io/denguedatasets/reference/dengue_bangladesh.md)
+  : Dengue Dataset of Bangladesh: Unraveling Dengue
+- [`dengue_bangladesh_mortality`](https://fdzul.github.io/denguedatasets/reference/dengue_bangladesh_mortality.md)
+  : Climatic Influence on Dengue Mortality
+- [`dengue_brazil`](https://fdzul.github.io/denguedatasets/reference/dengue_brazil.md)
+  : Brazil Dengue Dataset 2000-2019
+- [`dengue_brazil_labels`](https://fdzul.github.io/denguedatasets/reference/dengue_brazil_labels.md)
+  : Brazil Dengue Dataset 2000-2019 labels
+- [`dengue_colombia`](https://fdzul.github.io/denguedatasets/reference/dengue_colombia.md)
+  : Dengue Tabular Data and Satellite Images
+- [`dengue_colombia_medellin`](https://fdzul.github.io/denguedatasets/reference/dengue_colombia_medellin.md)
+  : Dengue Tabular Data and Satellite Images
+- [`dengue_india`](https://fdzul.github.io/denguedatasets/reference/dengue_india.md)
+  : Dengue cases and deaths in India
+- [`dengue_jakarta`](https://fdzul.github.io/denguedatasets/reference/dengue_jakarta.md)
+  : Jakarta Dengue Cases and Weather Data from 2021 to 2024.
+- [`dengue_pakistan`](https://fdzul.github.io/denguedatasets/reference/dengue_pakistan.md)
+  : Dengue surveillance data of Pakistan.
+- [`dengue_peru`](https://fdzul.github.io/denguedatasets/reference/dengue_peru.md)
+  : Dengue data in Peru from 2019 to 2022.
+- [`dengue_philippines`](https://fdzul.github.io/denguedatasets/reference/dengue_philippines.md)
+  : Philippines Dengue Cases from 2016 to 2020
+- [`dengue_sierra_leone`](https://fdzul.github.io/denguedatasets/reference/dengue_sierra_leone.md)
+  : The Sierra Leone Freetown DengueAI Dataset from 2015 to 2024
+- [`dengue_sri_lanka_2019`](https://fdzul.github.io/denguedatasets/reference/dengue_sri_lanka_2019.md)
+  : Sri Lanka Dengue Data of 2019
+- [`dengue_sri_lanka_2020`](https://fdzul.github.io/denguedatasets/reference/dengue_sri_lanka_2020.md)
+  : Sri Lanka Dengue Data of 2020
+- [`dengue_sri_lanka_2021`](https://fdzul.github.io/denguedatasets/reference/dengue_sri_lanka_2021.md)
+  : Sri Lanka Dengue Data of 2021
+- [`dengue_taiwan`](https://fdzul.github.io/denguedatasets/reference/dengue_taiwan.md)
+  : Taiwan Dengue Cases from 1998 to 2024
+
+# Articles
+
+### All vignettes
+
+- [Climatic Influence on Dengue
+  Mortality](https://fdzul.github.io/denguedatasets/articles/dengue_blangladesh_mortality.md):
+- [Dengue Dataset of
+  Bangladesh](https://fdzul.github.io/denguedatasets/articles/dengue_blangladesh.md):
+- [Brazil Dengue
+  Dataset](https://fdzul.github.io/denguedatasets/articles/dengue_brazil.md):
+- [Dengue dataset of
+  Medellin](https://fdzul.github.io/denguedatasets/articles/dengue_colombia_medellin.md):
+- [Dengue dataset of
+  Colombia](https://fdzul.github.io/denguedatasets/articles/dengue_colombia.md):
+- [Dengue dataset of
+  india](https://fdzul.github.io/denguedatasets/articles/dengue_india.md):
+- [Dengue dataset of
+  Jakarta](https://fdzul.github.io/denguedatasets/articles/dengue_jakarta.md):
+- [Dengue dataset of
+  Pakistan](https://fdzul.github.io/denguedatasets/articles/dengue_pakistan.md):
+- [Dengue dataset of
+  Peru](https://fdzul.github.io/denguedatasets/articles/dengue_peru.md):
+- [Dengue dataset of
+  Philippines](https://fdzul.github.io/denguedatasets/articles/dengue_philippines.md):
+- [Dengue dataset of Sierra
+  Leone](https://fdzul.github.io/denguedatasets/articles/dengue_sierra_leone.md):
+- [Dengue dataset of Sri Lanka
+  2019](https://fdzul.github.io/denguedatasets/articles/dengue_sri_lanka_2019.md):
+- [Dengue dataset of Sri Lanka
+  2020](https://fdzul.github.io/denguedatasets/articles/dengue_sri_lanka_2020.md):
+- [Dengue dataset of Sri Lanka
+  2021](https://fdzul.github.io/denguedatasets/articles/dengue_sri_lanka_2021.md):
+- [Dengue dataset of
+  Taiwan](https://fdzul.github.io/denguedatasets/articles/dengue_taiwan.md):
