@@ -20,25 +20,48 @@ library(denguedatasets)
 
 The objective of this document is to show and provide elements of the exploratory data analysis so that users can have a quick view of the structure, data types, column names, and number of rows.
 
-## EDA with function glimpse of dplyr package
+`dengue_colombia` has one row per municipality and `r ncol(dengue_colombia)` columns, in four groups:
+
 ```{r}
-dplyr::glimpse(dengue_colombia)
+cols <- names(dengue_colombia)
+group <- dplyr::case_when(
+  grepl("^temperature_", cols) ~ "monthly temperature (2007-2018)",
+  grepl("^precipitation_", cols) ~ "monthly precipitation (2007-2018)",
+  grepl("^x[0-9]{4}_w[0-9]+$", cols) ~ "weekly dengue cases (2007-2019)",
+  TRUE ~ "municipality, annual population and cases, sociodemographic"
+)
+table(group)
 ```
 
+The monthly climate and the weekly cases are long series of numeric columns, so the summaries below use the first group, the annual and sociodemographic variables; the other columns have the same structure.
+
+```{r}
+x <- dengue_colombia[, group == "municipality, annual population and cases, sociodemographic"]
+```
+
+## EDA with function glimpse of dplyr package
+```{r}
+dplyr::glimpse(x)
+```
 
 ## EDA with skim
 ```{r}
-skimr::skim(dengue_colombia)
+skimr::skim(x)
 ```
 
 ## EDA with function tbl_summary of gtsummary package
 ```{r}
-gtsummary::tbl_summary(dengue_colombia)
+gtsummary::tbl_summary(x, include = -c(municipality_code, municipality))
 ```
 
 ## EDA with function gt_plt_summary of gtExtras package
 ```{r}
-gtExtras::gt_plt_summary(dengue_colombia)
+gtExtras::gt_plt_summary(x)
 ```
 
-
+## The weekly series
+```{r}
+weeks <- dengue_colombia[, group == "weekly dengue cases (2007-2019)"]
+range(names(weeks))
+summary(colSums(weeks, na.rm = TRUE))
+```
